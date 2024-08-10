@@ -71,3 +71,14 @@ html,body{
     font-weight: 700;
     font-size: 20px;
 }
+h1{
+    color: red;
+}
+.playbtn{
+    text-decoration: none;
+    color: red;
+    transition: .3s ease;  
+}
+.playbtn:hover{
+    text-decoration: underline;
+}
