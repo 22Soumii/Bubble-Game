@@ -27,7 +27,7 @@ function runTime(){
         timer-- ;
       }else{
         clearInterval(timeInt);
-        bubble.innerHTML = `<h1> Game Over! Play Again </h1>`;
+        bubble.innerHTML = `<h1> Game Over! <a href="bubble.html" class="playbtn">Play Again <a> </h1>`;
         hit.innerHTML = "" ;
         score = 0 ;
         scoreBoard.textContent = score;
